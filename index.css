@@ -75,6 +75,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
+    /* margin-left: -2rem; */
 }
 .logo h5{
     margin-top: 8px;
@@ -223,22 +224,25 @@
     background-repeat: no-repeat;
    height: 100vh;
     width: 100%;
-    
+    margin-bottom:-215px ;
 }
 
 .box{
     width: 20%;
-    height: 300px;
-    background-color: rgba(255, 255, 255, 0.61);
-  margin-left: 20rem;
+    height: 250px;
+    background-color:rgba(255, 255, 255, 0.486);
+  /* margin-left: 20rem; */
   padding: 20px;
+  position: relative;
+  top: 70px;
+  left: 15%;
 }
 
 .box h3{
     color:rgb(89, 53, 219) ;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 85px;
+    margin-left: 25px;
     margin-top: 50px;
 }
 
@@ -273,15 +277,15 @@
     color: rgba(128, 128, 128, 0.671);
 }
 
-.logo h5{
+.footer .logo h5{
     color: rgba(128, 128, 128, 0.671);
     
 }
-.logo h6{
+.footer .logo h6{
     color: rgba(128, 128, 128, 0.671);
   
 }
-.logo img{
+.footer .logo img{
     opacity: 0.5;
 }
 
@@ -410,19 +414,20 @@
 }
 
 .climb h1{
-    font-size: 5rem;
-    margin-left: 4rem;
+    font-size: 3rem;
+    margin-left: -20px;
     margin-top: 1rem;
 }
 
 .climb h2{
-    font-size: 2rem;
-    margin-top: 2.5rem;
-    margin-left: -20px;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: -10px;
 }
 .climb p{
-    margin-top: 40px;
-    font-size: 10px;  
+    margin-top: 30px;
+    font-size: 10px; 
+    margin-left: 10px; 
 }
 
 
@@ -445,13 +450,15 @@
 .box{
     width: 50%;
     height: 200px;
-  margin-left: 5rem;
-  
+  /* margin-left: 5rem; */
+  position: relative;
+  top: 70px;
+  left: 15%;
 }
 
 .box h3{
     font-size: 15px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 .page3{
    height: 100vh;
